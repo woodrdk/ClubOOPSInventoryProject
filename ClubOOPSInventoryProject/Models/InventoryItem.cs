@@ -32,6 +32,8 @@ namespace ClubOOPSInventoryProject.Models
         /// If NULL, the item is not checked out to anyone.
         /// </summary>
         public virtual ApplicationUser CheckedOutTo { get; set; }
+
+        public virtual Club Club { get; set; }
     }
 
     public enum InventoryItemCondition
