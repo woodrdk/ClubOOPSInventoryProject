@@ -12,7 +12,7 @@ namespace ClubOOPSInventoryProjectCore.Pages
 
         public void OnGet()
         {
-            Message = "Your contact page.";
+            Message = "Clubs & Organizations Contact Info";
         }
     }
 }
