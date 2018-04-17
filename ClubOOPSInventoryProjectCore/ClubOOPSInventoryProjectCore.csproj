@@ -8,6 +8,10 @@
     <Compile Remove="Data\Migrations\20180412182559_InitialInventoryItemAndClub.Designer.cs" />
     <Compile Remove="Data\Migrations\20180412183259_InitialInventoryItemAndClub.cs" />
     <Compile Remove="Data\Migrations\20180412183259_InitialInventoryItemAndClub.Designer.cs" />
+    <Compile Remove="Pages\About.cshtml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Pages\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
